@@ -1,3 +1,6 @@
 # RTV-SIFT
-It's a method on SAR and Optical image registration
-Abstract
+## Status
+This method is currently being submitted for publication in a research paper.
+
+##Abstract
+### Registration of synthetic aperture radar (SAR) and optical images is challenging because extracting located identically and unique features on both images are tricky. To solve this problem, this paper proposes a novel SAR and optical image registration method based on relative total variation (RTV) and scale-invariant feature transform (SIFT) named RTV-SIFT, which can extract keypoints on the edges of structures and construct structural descriptors to improve the registration accuracy. First, a novel RTV-Harris keypoint detection method is proposed, combining the RTV and the multiscale Harris algorithm, which extracts feature points on both images' significant structures. This ensures that the feature points have a high repetition rate. Second, RTV-SIFT proposes to describe feature points on enhanced phase congruency edges (EPCE). The EPCE uses phase congruency (PC) to extract edges on structured images and is more robust to nonlinear intensity differences and speckle noise. Finally, after coarse registration, the position and orientation Euclidean distance (POED) of feature points is combined to achieve secondary feature matching for improving registration precision. The experimental results of the proposed RTV-SIFT method demonstrate its superiority in different scenes and remote sensing image capture conditions, indicating its robustness and effectiveness in multimodal remote sensing image registration.
